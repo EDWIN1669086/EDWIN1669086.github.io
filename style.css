@@ -1,0 +1,131 @@
+body {
+    background-color: lightsteelblue;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    background-color: lightgrey;
+    overflow: hidden;
+    font-family: 'Crushed', cursive;
+    font-size: 20px;
+}
+
+#nav li {
+    float: left;
+}
+
+#nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #444444;
+    color: white;
+}
+
+#content {
+    border: solid navy 2px;
+    margin-top: 16px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+table {
+    margin: auto;
+}
+
+#content ul, ol {
+    margin: auto;
+    width: 20%;
+    text-align: left;
+}
+
+.heading {
+    font-family: 'Crushed', cursive;
+    font-size: 160%;
+}
+
+#resume {
+    width: 60%;
+    background-color: rgba(255,255,255,0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 16px;
+    line-height: 1.5;
+    border: solid black .5px;
+}
+
+#avatar {
+    max-width: 100%;
+    width: auto;
+    height: 5%;
+}
+
+.center {
+    text-align: center;
+    font-family: 'Crushed', cursive;
+    font-size: 22px;
+}
+
+#socialmedia {
+    height: 5%;
+}
+
+#right {
+    text-align: right;
+   
+}
+
+#left {
+    font-size: 22px;
+    font-family: 'Crushed', cursive;
+}
+#socialtable {
+    width:10%;
+    border: solid black 2px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+#tableschedule {
+    border-collapse: collapse;
+    font-size: 16px;
+    
+}
+
+#tableschedule th {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+}
+
+.teal {
+    background-color: #dadee5;
+}
+
+.white {
+    background-color: white;
+}
+
+th, td {
+    padding: 5px;
+}
