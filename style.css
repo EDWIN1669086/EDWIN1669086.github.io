@@ -129,3 +129,39 @@ table {
 th, td {
     padding: 5px;
 }
+
+#portfolio { 
+    width: 60%;
+    background-color: rgba(255,255,255,0.8);
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 16px;
+    line-height: 1.5;
+    border: solid black .5px;
+    text-align: center;
+}
+
+#portheading {
+    font-family: 'Meddon', cursive;
+    text-align: center;
+}
+
+#left1{
+    float: left;
+    width: 49%;
+    border: 2px solid black;
+}
+
+#right1{
+    float: right;
+    width: 49%;
+    border: 2px solid black;
+}
+
+.left2{
+    border: 2px solid black;
+}
